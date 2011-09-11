@@ -1,0 +1,20 @@
+.container {
+	margin-top:50px;
+}
+#score {
+	padding-top:15px;
+	font-size:4em;
+	color:#999;
+}
+#score #total {
+	color:#666;
+	padding:0 10px;
+}
+#score #correct {
+	color:#57A957;
+	padding:0 10px;
+}
+#score #percent {
+	padding: 0 0 0 5px;
+	font-size:40%;
+}
