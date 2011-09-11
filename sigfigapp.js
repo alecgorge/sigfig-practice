@@ -92,7 +92,6 @@ function SigFigApp () {
 			return sigfigs;
 		},
 		round: function (num, places) {
-			console.log(num, places || opts.rounding());
 			return num.toFixed(places || opts.rounding());
 		},
 		rand: function (min, max, decimal) {
