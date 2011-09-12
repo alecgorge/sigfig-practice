@@ -69,7 +69,7 @@ function SigFigApp () {
 			num = (typeof num == 'string' ? num : parseFloat(num).toString()).split('.');
 
 			var sigfigs = 0,
-				sigFigRegex = /^0*(\d+)/;
+				sigFigRegex = /^-*0*(\d+)/;
 			
 			// rules 1 & 2, when a decimal
 			if(num.length == 2) {
